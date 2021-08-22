@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap');
+
+@font-face {
+    font-family: "digitalFont";
+    src: url("./fonts/ticking-timebomb-bb/TickingTimebombBB.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: #1F1F1F;
+    background: -webkit-radial-gradient(top left, #1F1F1F, #000000);
+    background: -moz-radial-gradient(top left, #1F1F1F, #000000);
+    background: radial-gradient(to bottom right, #1F1F1F, #000000);
+    text-align: center;
+    font-family: "digitalFont", "Orbitron";
+}
+
+#clock {
+    font-size: 60px;
+    color: #03A062;
+    font-weight: 700;
+}
+
+.format {
+    color: #4de5ee;
+    font-size: 35px;
+    letter-spacing: 10px;
+    margin-top: 20px;
+    font-family: "Orbitron";
+}
+
+.format button {
+    font-size: 35px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: "Orbitron";
+    margin-top: 20px;
+}
