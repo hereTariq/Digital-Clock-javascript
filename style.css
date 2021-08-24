@@ -44,7 +44,18 @@ body {
     font-size: 35px;
     padding: 10px;
     cursor: pointer;
-    font-weight: 700;
+    font-weight: 500;
     font-family: "Orbitron";
     margin-top: 20px;
+}
+@media screen and (max-width: 520px) {
+    #clock{
+        font-size: 40px;
+    }
+    .format{
+        font-size: 25px;
+    }
+    .format button{
+        font-size: 25px;
+    }
 }
